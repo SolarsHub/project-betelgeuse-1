@@ -17,7 +17,7 @@ button {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding: 30px 10%;
 }
@@ -55,14 +55,14 @@ button:hover {
     align-items: center;
 }
 
-.logo {
+.banner {
+    display: flex;
     cursor: pointer;
-    margin-right: auto;
+    justify-content: center;
 }
 
 .web-name {
     cursor: pointer;
-
     text-align: center;
     color: white;
 }
