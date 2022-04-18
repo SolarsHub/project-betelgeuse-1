@@ -1,0 +1,100 @@
+@use "button";
+@use "banner";
+@use "text";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #7dc3dd;
+}
+
+.banner {
+    @include banner.banner
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+button {
+    @include button.button;
+}
+
+h1 {
+    text-align: center;
+}
+
+// .beach-maps {
+//     position: relative;
+//     padding-bottom: 75%; // This is the aspect ratio
+//     height: 0;
+//     overflow: hidden;
+// }
+
+// .city-maps {
+//     position: relative;
+//     padding-bottom: 75%; // This is the aspect ratio
+//     height: 0;
+//     overflow: hidden;
+// }
+
+// .map-1 iframe {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 25% !important;
+//     height: 20% !important;
+//     // padding-bottom: 50px;
+// }
+
+// .map-2 iframe {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     width: 25% !important;
+//     height: 20% !important;
+//     // padding-bottom: 50px;
+// }
+
+// .map-3 iframe {
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     width: 25% !important;
+//     height: 30% !important;
+
+// }
+
+// .map-4 iframe {
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;
+//     width: 25% !important;
+//     height: 30% !important;
+
+// }
+
+// .beach-maps {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+.beach-maps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.city-maps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
