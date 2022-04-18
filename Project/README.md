@@ -1,4 +1,4 @@
-# project-betelgeuse-1
+<!-- # project-betelgeuse-1
 
 First draft of html and scss.
 
@@ -13,7 +13,7 @@ May need to create a banner for the brand Fat Pidgey
 Set up basic navbar and layout of home page, worked on basic scss. No implementation of mixins yet.
 Copied home page template and generated contact us, map, gallery and planning pages.
 __________________________________________________________________
-Rewrote the code for the home.scss. Created mixins and set values.
+Rewrote the code for the home.scss and home.html. Created mixins and set values.
 Created banner
 Created theme picture
 Finalised Home page, Contact us and Plan your trip pages.
@@ -22,3 +22,6 @@ Begun work on Map and Galleries.
 Design is interactive, everything scales with size properly.
 Added accordian style dropboxes for planning page.
 Sticking with pokemon theme
+__________________________________________________________________
+Completed galleries and maps page.
+Working on final pictures for the gallery. -->
